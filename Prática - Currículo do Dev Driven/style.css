@@ -1,0 +1,12 @@
+.cores-titulo-sub {
+    color: dimgray;
+    text-align: center;
+}
+.cores-secoes {
+    color: steelblue;
+    text-align: left;
+    border-bottom-style: solid;
+}
+.cor {
+    color: blue;
+}
