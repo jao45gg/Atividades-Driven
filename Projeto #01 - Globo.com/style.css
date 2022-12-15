@@ -1,0 +1,267 @@
+.logo {
+    width: 171px;
+    height: 36px;
+}
+
+.div-logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 22px;
+}
+
+.div-menu {
+    border: 1px solid #f5f6f7;
+    margin-top: 22px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.menuzim {
+    display: flex;
+    justify-content: space-between;
+    width: 1250px;
+}
+
+.fonte {
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 19px;
+    line-height: 23.75px;
+}
+
+.g1 {
+    color: #c3170c;
+
+}
+
+.globo {
+    color: #1e4b9b;
+}
+
+.valor {
+    color: #006766;
+}
+
+.ge {
+    color: #07aa47;
+}
+
+.cartola {
+    color: #e3662b;
+}
+
+.globoplay {
+    color: #fb0735;
+}
+
+.dropz {
+    color: #ff75bb;
+}
+
+.gshow {
+    color: #ec7d00;
+}
+
+.quem {
+    color: #323333;
+}
+
+.receitas {
+    color: #a81d83;
+}
+
+.container {
+    display: flex;
+    width: 1250px;
+    justify-content: space-between;
+}
+
+.topo-esquerda {
+    margin-top: 34px;
+    width: 624px;
+}
+
+.direita1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 35px;
+}
+
+.vacinados {
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 52px;
+    color: #c4160c;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 67px;
+}
+
+.ministros {
+    font-size: 18px;
+    color: #303134;
+    font-family: 'Encode Sans', sans-serif;
+    line-height: 22.5px;
+    margin-top: 29px;
+}
+
+.ministros-altura {
+    margin-top: 7px;
+}
+
+.noticias {
+    display: flex;
+    width: 627px;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.borda-separadora {
+    border: 1px solid #ebedef;
+    margin-top: 25px;
+}
+
+.borda-separadora2 {
+    border: 1px solid #ebedef;
+    margin-top: 36px;
+}
+
+.img1 {
+    height: 110px;
+    width: 193px;
+    border-radius: 12px;
+}
+
+.sem-sublinhado {
+    text-decoration: none;
+}
+
+.descricao {
+    font-size: 14px;
+    color: #c4170c;
+    font-family: 'Encode Sans', sans-serif;
+    line-height: 17.5px;
+    margin-top: 11px;
+    font-weight: 500;
+}
+
+.descricao1 {
+    font-size: 20px;
+    color: #2f3134;
+    font-family: 'Encode Sans', sans-serif;
+    line-height: 25px;
+    margin-top: 6px;
+    font-weight: 700;
+}
+
+.ntc {
+    width: 193px;
+}
+
+.descricao2 {
+    font-size: 14px;
+    color: #2f3134;
+    font-family: 'Encode Sans', sans-serif;
+    line-height: 19px;
+    margin-top: 4.5px;
+    font-weight: 400;
+}
+
+.borda-separadora3 {
+    border: 1px solid #ebedef;
+    margin-top: 36px;
+    margin-left: 36px;
+
+}
+
+.ntc2 {
+    width: 240px;
+    margin-top: 36px;
+
+}
+
+.img2 {
+    height: 128px;
+    width: 240px;
+    border-radius: 12px;
+}
+
+.descricao3 {
+    font-size: 14px;
+    color: #16ae54;
+    font-family: 'Encode Sans', sans-serif;
+    line-height: 17.5px;
+    margin-top: 11px;
+    font-weight: 500;
+}
+
+.descricao4 {
+    font-size: 14px;
+    color: #2f3134;
+    font-family: 'Encode Sans', sans-serif;
+    line-height: 19px;
+    margin-top: 4px;
+    font-weight: 400;
+}
+
+.ntc3 {
+    width: 240px;
+    margin-top: 50px;
+}
+
+.ntc4 {
+    width: 240px;
+    margin-top: 42px;
+}
+
+.borda-separadora4 {
+    border: 1px solid #ebedef;
+    margin-top: 36px;
+    margin-left: 35px;
+}
+
+.ntc5 {
+    margin-left: 36px;
+    margin-top: 36px;
+}
+
+.descricao5 {
+    font-size: 14px;
+    color: #ec8006;
+    font-family: 'Encode Sans', sans-serif;
+    line-height: 17.5px;
+    margin-top: 11px;
+    font-weight: 500;
+}
+
+.ntc6 {
+    margin-left: 36px;
+    margin-top: 23px;
+}
+
+.ntc7 {
+    margin-left: 37px;
+    margin-top: 50px;
+}
+
+.direita2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.descricao6 {
+    font-size: 14px;
+    color: #2f3134;
+    font-family: 'Encode Sans', sans-serif;
+    line-height: 19px;
+    margin-top: 9px;
+    font-weight: 400;
+}
+
+.caixona {
+    display: flex;
+    justify-content: center;
+}
