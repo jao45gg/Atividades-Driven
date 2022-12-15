@@ -1,1 +1,1 @@
-# This repository exist to make public all the code i did while studying on Driven Education.
+## This repository exists to make public all the codes developed by me during my study at Driven Education.
