@@ -1,0 +1,441 @@
+body {
+    overflow-x: hidden;
+}
+
+.menu-superior {
+    display: flex;
+    height: 54px;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid #dbdbdb;
+    z-index: 4;
+}
+
+.menu-inferior {
+    display: none;
+}
+
+.pc {
+    display: none;
+}
+
+.feed {
+    margin-top: 88px;
+    width: 614px;
+    margin-bottom: 6.5vh;
+}
+
+button {
+    height: 28px;
+    width: 215px;
+    color: rgb(133, 133, 133);
+    background-color: rgb(249, 249, 249);
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 3px;
+    font-weight: 400;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(249, 249, 249);
+}
+
+ion-icon {
+    font-size: 16px;
+}
+
+.menu-superior>div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.mse div {
+    width: 1px;
+    background-color: #dbdbdb;
+    height: 22px;
+}
+
+.img1 {
+    width: 103px;
+    height: 29px;
+}
+
+.msd {
+    width: 136px;
+}
+
+.mse {
+    width: 146px;
+}
+
+.container {
+    display: flex;
+    width: 935px;
+    justify-content: center;
+}
+
+.container0 {
+    display: flex;
+    justify-content: center;
+}
+
+.stories {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    height: 118px;
+    position: relative;
+    margin-bottom: 24px;
+}
+
+.stories img {
+    width: 66px;
+    height: 66px;
+    border-radius: 33px;
+}
+
+.stories div {
+    margin-left: 15px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stories .sts {
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+    position: absolute;
+    z-index: 1;
+    left: 5px;
+    top: 5px;
+}
+
+.stories h1 {
+    font-weight: 400;
+    font-size: 12px;
+    color: #262626;
+    margin-top: 6px;
+}
+
+.stories ion-icon {
+    position: absolute;
+    color: #fff;
+    font-size: 32px;
+    z-index: 2;
+    margin-left: 576px;
+}
+
+.post {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+}
+
+.post .altura0 {
+    display: flex;
+    align-items: center;
+    margin: 15px 0px 15px 15px;
+    position: relative;
+}
+
+.post div img {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+}
+
+.post div h1 {
+    font-weight: 500;
+    font-size: 14px;
+    color: #262626;
+    margin-left: 10px;
+}
+
+.distancia {
+    margin-top: 60px;
+}
+
+.post img {
+    height: 614px;
+}
+
+.icone1 {
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.icone2 {
+    margin-top: 10px;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.icone3 {
+    margin-right: 15px;
+}
+
+.post .altura {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icones-alinhados {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.curtidas {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.curtidas h1 {
+    font-size: 14px;
+    font-weight: 300;
+    color: #000;
+}
+
+.post .curtidas img {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+.borda {
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.menu-lateral {
+    margin-left: 29px;
+    margin-top: 111px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 450px;
+    position: relative;
+}
+
+.menu-lateral .eu {
+    display: flex;
+    align-items: center;
+}
+
+.eu img {
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+}
+
+.eu .nomes {
+    display: flex;
+    flex-direction: column;
+    margin-left: 17px;
+    align-items: flex-start;
+}
+
+.eu .nomes p:first-child {
+    font-weight: 500;
+    font-size: 14px;
+    color: #262626;
+}
+
+.eu .nomes p:nth-child(2) {
+    margin-top: 5px;
+    font-weight: 300;
+    font-size: 14px;
+    color: #8E8E8E;
+}
+
+.sugestoes {
+    display: flex;
+}
+
+.menu-lateral .sugestoes h1 {
+    color: #8E8E8E;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.menu-lateral .sugestoes h2 {
+    position: absolute;
+    right: 0px;
+    color: #262626;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 120px;
+}
+
+.pessoa {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.pessoa img {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    margin-left: 11px;
+    align-items: flex-start;
+}
+
+.texto h1:first-child {
+    font-weight: 500;
+    color: #262626;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.texto h1:nth-child(2) {
+    font-weight: 400;
+    color: #8E8E8E;
+    font-size: 12px;
+    margin-top: 3px;
+    white-space: nowrap;
+}
+
+.pessoa h2 {
+    position: absolute;
+    right: 0;
+    font-size: 12px;
+    font-weight: 500;
+    color: #139ef2;
+}
+
+.menu-lateral .lateral .formato {
+    margin-top: 33px;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #c7c7c7;
+
+}
+
+.menu-lateral .lateral p:nth-child(2) {
+    margin-top: 18px;
+}
+
+@media (max-width: 935px) {
+    .menu-lateral {
+        display: none;
+    }
+
+    .menu-superior {
+        justify-content: space-between;
+    }
+    
+}
+
+@media (max-width: 614px) {
+
+    .menu-lateral,
+    .mobile,
+    .stories ion-icon {
+        display: none;
+    }
+
+    .pc {
+        display: initial;
+    }
+
+    .menu-superior {
+        justify-content: space-between;
+    }
+
+    .mse,
+    .msd {
+        width: auto;
+    }
+
+    .mse {
+        margin-left: 15px;
+    }
+
+    .msd {
+        margin-right: 15px;
+    }
+
+    .container,
+    .feed,
+    .post img {
+        width: 100vw;
+        height: auto;
+    }
+
+    .menu-lateral,
+    .mobile {
+        width: 0vw;
+    }
+
+    .feed,
+    .menu-superior,
+    .stories,
+    .post {
+        border-radius: 0;
+    }
+
+    .feed {
+        margin-top: 54px;
+    }
+
+    .stories {
+        margin-bottom: 0;
+        width: 100vw;
+        background-color: #fafafa;
+        border-bottom: 0px;
+    }
+
+    .post {
+        border-top: 1px solid #dbdbdb;
+        border-bottom: 1px solid #dbdbdb;
+        border-left: 0px solid #dbdbdb;
+        border-right: 0px solid #dbdbdb;
+    }
+
+    .menu-inferior { 
+        display: flex;
+        height: 54px;
+        background-color: rgb(255, 255, 255);
+        width: 100vw;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1px solid #dbdbdb;
+        z-index: 4;
+    }
+
+    .menu-inferior ion-icon:first-child {
+        margin-left: 3vw;
+    }
+
+    .menu-inferior ion-icon:nth-child(5) {
+        margin-right: 3vw;
+    }
+}
